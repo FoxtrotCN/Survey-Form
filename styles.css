@@ -1,44 +1,39 @@
-* {
+*{
     box-sizing: border-box;
-    font-family: Georgia, 'sans-serif';
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    border: 3px solid black;
-    width: 1000px;
-    align-items: center;
+body {
+    background-image: url("images/main-wallpaper.jpg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
 
+}
+
+#background-img
+
+.container {
+    position: relative;
+    border: 10px solid blue;
+
+
+}
+
+#header {
+    border: 8px solid yellow;
+    color: white;
 }
 
 #survey-form {
-
+    border: 6px solid red;
+    color: white;
 }
 
 .form-group {
-
-
-}
-
-input {
-    width: 100%;
+    border: 4px solid green;
 }
 
 label {
-    
-
-
-
-
+    display: flex;
+    margin: 10px 0;
 }
-
-.input-radio {
-
-
-
-}
-
-
-
-
